@@ -1,0 +1,113 @@
+/*--default--*/
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Merriweather", serif;
+background-color: #00CCBF;
+}
+
+/*--logo--*/
+.logo{
+  width: 60px;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+/*--nav--*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:85%;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+/*--nav-list-items-*/
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 12px 20px;
+}
+
+/*--nav-list-items--a-*/
+nav ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #0D0D0D;
+}
+
+/*--nav-list-items--a-hover-effect*/
+nav ul li a:hover{
+color: #F2E7DC;
+transition: 0.5s;
+}
+
+/*--main*/
+main{
+  padding-left: 7rem;
+  margin-top: 8rem;
+}
+
+/*--span*/
+span{
+  color: #F2E7DC;
+}
+
+/*--hero-text-he--*/
+.hero_text h1{
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+
+/*--paragraph*/
+.hero_text p{
+  line-height: 25px;
+}
+
+/*--button*/
+button{
+  background-color: #FF5F5D;
+  color: #fff;
+  display: inline;
+  padding: 6px 12px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/*--button-hover*/
+button:hover{
+  background-color: transparent;
+  transition: 0.5s;
+  border: 2px solid #003256;
+}
+
+/*--adding the image--*/
+.main-img{
+width:40%;
+height:80%;
+position: absolute;
+bottom: 0;
+right:80px;
+cursor: pointer;
+}
+
+/*--adding the image--*/
+.main-img img{
+height: 100%;
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translate(-50%);
+}
+
+.main-img img:hover{
+  transition: 1s;
+  left: 44%;
+} 
